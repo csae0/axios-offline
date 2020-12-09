@@ -2,7 +2,7 @@
   "name": "axios-offline",
   "version": "1.5.2",
   "description": "Store query and repeat",
-  "main": "./dist/main.js",
+  "main": "./index.js",
   "repository": "github:jonkofee/axios-offline.git",
   "homepage": "https://github.com/jonkofee/axios-offline",
   "author": "jonkofee <jonkofee@icloud.com>",
@@ -24,7 +24,6 @@
     "babel-preset-env": "^1.6.1"
   },
   "scripts": {
-    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\""
   },
   "babel": {
