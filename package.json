@@ -15,14 +15,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "axios": "*",
-    "localforage": "^1.7.1"
+    "@aveq-research/localforage-asyncstorage-driver": "^2.0.0",
+    "localforage": "^1.7.1",
+    "axios": "*"
   },
   "devDependencies": {
     "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14"
+    "babel-preset-env": "^1.6.1"
   },
   "scripts": {
     "build": "webpack --mode production",
